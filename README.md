@@ -1,2 +1,0 @@
-# python
-Python For Trainee
