@@ -1,34 +1,21 @@
 list=['arti',20,0.3]
-print(list)
 print(' ')
 print('-----------------------------------------')
-print(list[0], '=printing the 1st element of the list')
+print('Current list is {0}.format(list)')
+
+print('First element {0}, second element {1}, third element {2} from the list {3} '.format(list[0], list[1], list[2], list))
 print(' ')
 print('-----------------------------------------')
 
-print(list[1] ,'=printing the 2nd element of the list')
+print('Last element {0}, second last element {1}, third last element {2} from the list {3} '.format(list[-1], list[-2], list[-3], list))
 print(' ')
 print('-----------------------------------------')
 
-print(list[2] ,'=printing the 3rd element of the list')
-print(' ')
-print('-----------------------------------------')
-
-print(list[-1] ,'=printing the 3rd element of the list by using -1 index')
-print(' ')
-print('-----------------------------------------')
-
-print(list[-2],'=printing the 2nd element of the list by using -2 index')
-print(' ')
-print('-----------------------------------------')
-
-print(list[-3] ,'=printing the 1st element of the list by using -3 index')
-print(' ')
-print('-----------------------------------------')
 list[2]=1997
-print('changing the 3rd element of the list',list)
+print('changing the 3rd element of the list {0}'.format(list))
 print(' ')
 print('-----------------------------------------')
+
 print('printing the whole list=')
 for i in list:
 	print (i)
@@ -97,3 +84,4 @@ print(list)
 print(list2)
 print(' ')
 print('-----------------------------------------')
+
