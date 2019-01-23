@@ -1,0 +1,62 @@
+>> print("hello world")
+hello world
+>>> list=[heena,ansh,5,6]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'heena' is not defined
+>>> list{heena,ansh,5,6}
+  File "<stdin>", line 1
+    list{heena,ansh,5,6}
+        ^
+SyntaxError: invalid syntax
+>>> list["heena","ansh",5,6]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'type' object has no attribute '__getitem__'
+>>> list["heena","ansh",5,6]
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+TypeError: 'type' object has no attribute '__getitem__'
+>>> list=["heena","ansh",5,6]
+>>> list1=["gopal","hannu",6,7]
+>>> list.etent(list1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'etent'
+>>> list.extent(list1)
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'extent'
+>>> list.extend(list1)
+>>> list1=["gopal","hannu",6,7]
+>>> print list1
+['gopal', 'hannu', 6, 7]
+>>> print list
+['heena', 'ansh', 5, 6, 'gopal', 'hannu', 6, 7]
+>>> list.insert(4,"anu")
+>>> print list
+['heena', 'ansh', 5, 6, 'anu', 'gopal', 'hannu', 6, 7]
+>>> list.remove("gopal")
+>>> print list
+['heena', 'ansh', 5, 6, 'anu', 'hannu', 6, 7]
+>>> list.count("hannu")
+1
+>>> list.index("ansh")
+1
+>>> list.pop(1)
+'ansh'
+>>> print list
+['heena', 5, 6, 'anu', 'hannu', 6, 7]
+>>> list.revrse()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+AttributeError: 'list' object has no attribute 'revrse'
+>>> list.reverse()
+>>> print list
+[7, 6, 'hannu', 'anu', 6, 5, 'heena']
+>>> list1=["gopal","hannu",6,7]
+>>> list1.sort()
+>>> print list1
+[6, 7, 'gopal', 'hannu']
+>>> 
+
