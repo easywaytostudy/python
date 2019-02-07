@@ -1,9 +1,4 @@
-print("#################### Program 1 (Divisible by 7 and not multiple of 5) ######################")
-for i in range(2000,3200):
-	if i%7==0 and i%5!=0:
-		print (i)
-print("____________________________________________________________________________")
-print("")
+print("kirti deshwal 4th feb test answers")
 print("#################### Program 2 (Factorial) ######################")
 x=input("Enter a number for which you want to find factorial - ")
 x=int(x)
