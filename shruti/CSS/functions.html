@@ -1,0 +1,24 @@
+<html>
+	<head>
+		<title>
+			Use of new functions
+		</title>
+		<script>
+			i=0;
+			function create(){
+				var colors=["red","green","blue","purple","yellow"];
+				var z=document.createElement("div");
+				z.id="id"+i;
+				document.body.appendChild(z);
+				var a=document.getElementById("id"+i);
+				a.style.height="100px";
+				a.style.width="100px";
+				a.style.background=colors[i];
+				i++;
+			}
+		</script>
+	</head>
+	<body>
+		<button onclick="create()">Create</button>
+	</body>
+</html>
